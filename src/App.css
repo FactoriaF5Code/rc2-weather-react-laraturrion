@@ -1,0 +1,99 @@
+body {
+  background-color: #7189ff;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fffbff;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  border: none;
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 10px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.icon {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  bottom: 280px;
+  float: right;
+  margin: 5px 5px 0 0;
+}
+.cityName {
+  font-weight: 300;
+  font-size: 40px;
+  color: black;
+  bottom: 0;
+}
+
+.description{
+    font-size: 20px;
+    color:black;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  
+}
+
+.cardContainer {
+  margin: 20px 5px;
+  border-radius: 20px;
+  position: absolute;
+  width: 470px;
+  height: 470px;
+  background-color: #a0ddff;
+  box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);
+}
+
+.temp {
+  position: relative;
+  font-weight: 300;
+  font-size: 80px;
+  color:black;
+  right: 120px;
+}
+
+.cardFooter {
+  background-color: #a0ddff;
+  color: white;
+  position: relative;
+  bottom: 280px;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tempmaxmin {
+  font-weight: 300;
+  font-size: 30px;
+  color: black;
+}
